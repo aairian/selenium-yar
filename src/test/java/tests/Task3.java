@@ -3,21 +3,13 @@ package tests;
 import static org.hamcrest.Matchers.*;
 import static org.junit.Assert.*;
 
-import io.github.bonigarcia.wdm.FirefoxDriverManager;
-import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
-import org.openqa.selenium.firefox.FirefoxOptions;
-import org.openqa.selenium.remote.BrowserType;
-import org.openqa.selenium.support.events.EventFiringWebDriver;
 import pages.BasePage;
 import pages.LoginPage;
 import pages.MainPageAdmin;
 
-import java.nio.file.Watchable;
 import java.util.stream.IntStream;
 
 @RunWith(Parameterized.class)
